@@ -11,6 +11,8 @@
 
 2 & 3) Used the command docker run -d -p 3000:3000 grafana/grafana-oss to run the app in production mode.
 
+https://grafana.com/docs/grafana/latest/administration/configuration/ indicates that the app is run in production mode by default.
+
 <img width="1020" alt="Logging2and3" src="https://user-images.githubusercontent.com/55119946/165248431-c74cbd33-133a-4ee3-84d3-44a94b63bd9e.png">
 
 <img width="1284" alt="Screen Shot 2022-04-25 at 10 55 51 PM" src="https://user-images.githubusercontent.com/55119946/165248459-6968a5b6-631b-45d7-860e-c7a5838265d6.png">
