@@ -20,4 +20,4 @@ https://grafana.com/docs/grafana/latest/administration/configuration/ indicates 
 4 & 5) Used docker run -d -p 3000:3000 grafana with the updated files
 
 To update the background color on the login page I modified the background css within Branding.tsx to #FFFF00;
-To update the app title for the login page I updated the 'App Title' field in Branding.tsx to 'My Test' which only affects the login page's title.  I did not touch any html.
+To update the app title for the login page I updated the 'AppTitle' field in Branding.tsx to 'My Test' which only affects the login page's title.  I did not touch any html.
