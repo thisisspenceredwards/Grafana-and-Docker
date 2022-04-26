@@ -2,6 +2,9 @@
 
 1) Built a docker image using docker build -t grafana . 
    and used docker run -d -p 3000:3000 grafana to run the sources locally.
+   
+  I also included a bash script named Steps.sh per the instructions that would run these two commmands.
+  As a note, I did run into issues building the image locally.  After a bit of sluething, updating Docker's settings to increase Swap to 4 GB fixed the errors.
 
 
 <img width="1010" alt="Screen Shot 2022-04-26 at 12 48 49 AM" src="https://user-images.githubusercontent.com/55119946/165249346-2cb45d22-bd0d-44cf-bd6e-c5d0c371431c.png">
