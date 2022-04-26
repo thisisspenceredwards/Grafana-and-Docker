@@ -1,10 +1,10 @@
 <img width="1022" alt="Screen Shot 2022-04-25 at 11 02 34 PM" src="https://user-images.githubusercontent.com/55119946/165248496-c14f7b21-a224-45b4-9d71-b981fb6f4000.png">
 
-1) Built a docker image and used docker run -d -p 3000:3000 grafana to run the sources locally.
+1) Built a docker image using docker build -t grafana . 
+   and used docker run -d -p 3000:3000 grafana to run the sources locally.
 
 
 <img width="1010" alt="Screen Shot 2022-04-26 at 12 48 49 AM" src="https://user-images.githubusercontent.com/55119946/165249346-2cb45d22-bd0d-44cf-bd6e-c5d0c371431c.png">
-
 
 2 & 3) Used the command docker run -d -p 3000:3000 grafana/grafana-oss to run the app in production mode.
 
